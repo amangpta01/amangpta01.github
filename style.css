@@ -1,0 +1,121 @@
+body {
+	
+	width: 100%;
+	margin: 0;
+	background-image: url('bw5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.menu-items {
+	padding: 0.05%;
+	float: right;
+	bottom: 5px;
+	font-size: 200%;
+}
+
+.name {
+	float: left;
+	margin-left: 20px;
+}
+
+
+.nav {
+	margin: 0;
+	text-align: center;
+	background-color: black;
+}
+
+#page-one {
+	margin-top: 60px;
+}
+
+
+.box-one {
+	width: 80%;
+	height: 90%;
+	margin: auto;
+	box-shadow: 0 0 15px rgba(256,256,256,1.0);
+	padding: 30px;
+	position: relative;
+}
+.box-one {
+	height: 75%;
+}
+
+.image {
+	height: 80%;
+	width: 50%;
+	border-radius: 50%;
+}
+
+.image>img {
+	height: 90%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 60px;
+	border-style: double;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 50%;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background-color: rgb(10,10,10);
+	margin: auto;
+	margin-top: 40px;
+}
+
+.text {
+	width: 50%;
+	height: 100%;
+	top: 8%;
+}
+
+.heading {
+	font-size: 400%;
+	letter-spacing: 0.3em;
+	color: black;
+	text-shadow: 0 0 5px white;
+	font-family: helvetica;
+}
+
+.content {
+	font-family: 'Bree Serif', serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: justify;
+	letter-spacing: 0.2em;
+	color: black;
+	text-shadow: 0 0 1px white;
+}
+
+
+
+.footer-text {
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 125%;
+	padding-top: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+
+.profile-heading {
+	color: white;
+	font-family: 'Bree Serif', serif;
+	font-size: 90px;
+	margin-left: 130px;
+	margin-top: 150px;
+}

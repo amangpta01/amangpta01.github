@@ -1,0 +1,262 @@
+.modal-content {
+	background-color: #2b2d30;
+}
+.modal-title,.modal-body {
+	color: white;
+}
+.black {
+	background-color: #2b2d30;
+	color: white;
+}
+
+
+
+/*==========================================================================================*/
+
+.wrapper {
+	display: grid;
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	margin-top: 50px;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.one, .two, .three, .four, .five, .six {
+	width: 320px;
+	height: 300px;
+	background-color: #15181e;
+	opacity: 0.8;
+}
+
+
+/*==========================================================================================*/
+
+
+.wrapper2 {
+	display: grid;
+	margin: auto;
+	margin-top: 50px;
+	width: 70%;
+	height: 100%;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	grid-gap: 1px;
+}
+
+.info-card {
+	width: 320px;
+	height: 290px;
+	background-color: transparent;	
+	-webkit-perspective: 500px;
+}
+
+.front, .back {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	transition: -webkit-transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+.front {
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+.back {
+	overflow: hidden;
+	border-style: solid;
+	/*border-color: white;*/
+	border-width: 3px;
+	-webkit-transform: rotateY(-180deg);
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+/*===========================================================================================*/
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family: helvetica;
+	color: white;
+}
+
+.quotes, .work-des {
+	font-size: 23px;
+	margin: 20px;
+	text-align: center;
+	font-family: helvetica;
+	font-family: 'Shadows Into Light', cursive;
+	padding: 0;
+	vertical-align: middle;
+	color: white;
+	line-height: 1.3em;
+	letter-spacing: 0.2em;
+}
+.work-des {
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	margin-top: -5px;
+	vertical-align: middle;
+}
+.compress {
+	letter-spacing: 0.1em;
+}
+
+.black {
+	margin-left: 125px;
+}
+.black:hover {
+	color: white;
+	background-color: black;
+}
+
+.adjust1 {
+	margin-top: 45px;
+}
+
+.adjust2 {
+	margin-top: 73px;
+}
+
+.adjust3 {
+	margin-top: -14px;
+}
+
+.adjust4 {
+	margin-top: 100px;
+}
+
+.adjust5 {
+	margin-top: 12px;
+}
+.adjust6 {
+	margin-top: 70px;
+}
+
+.projects {
+	color: white;
+	font-size: 30px;
+	font-family: 'Bree Serif',serif;
+	padding: 5px;
+	line-height: 1.0em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.chess-white {
+	background-color: #375991;
+	/*opacity: 0.8;*/
+}
+.chess-black {
+	background-color: #639e3a;
+	/*opacity: 0.8;*/
+}
+.chess-white-back {
+	border-color: white;
+}
+
+.social-icons {
+	margin: auto;
+}
+.social-icons>ul>li {
+	display: inline-block;
+	padding: 20px;
+	background-color: black;
+	width: 100px;
+	vertical-align: middle;
+}
+.social {
+	padding: 20px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.top {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.social>li:hover {
+	opacity: 0.9;
+}
+.i:hover{
+	color: red;
+}
+.menu-items>a:hover {
+	background-color: red;
+	/*color: red;*/
+}
+
+.small {
+	height: 60px;
+	width: 70px;
+	margin: 0 0 0 30px;
+    -webkit-filter: invert(100%); /* Safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+
+.insti {
+	font-size: 20px;
+}
+.insti, .year {
+	margin-top: 20px;
+}
+
+.intern {
+	letter-spacing: 0.2em;
+	text-align: justify;
+	font-family: 'Quicksand',serif;
+}
+.modal-body {
+	padding: 40px 60px 40px 60px;
+}
+.petes {
+	margin: auto;
+	image-orientation: from-image;
+}
+
+.carousel-inner {
+	height: 350px;
+}
+
+.ex {
+	font-size: 14px;
+	list-style-type: square;
+	letter-spacing: 0.2em;
+	font-family: 'Quicksand',serif;
+}
+
+.ex2 {
+	margin-top: 10px;
+}
+
+.hob {
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	font-family: 'Quicksand',serif;
+	list-style-type: square;
+}
+.hob2 {
+	list-style-type: circle;
+	letter-spacing: 0.1em;
+	font-size: 13px;
+	font-family: 'Quicksand',serif;
+}
+.col-md-8 {
+	font-family: 'Quicksand',serif;
+}
